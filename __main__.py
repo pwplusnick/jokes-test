@@ -1,4 +1,4 @@
 import pyjokes
 
-def joke(params):
+def main(params):
     return {"joke": pyjokes.get_joke()}
